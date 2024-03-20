@@ -1,0 +1,73 @@
+html {
+    font-family: Arial, Helvetica, sans-serif; 
+    color:rgb(245, 228, 207);
+    background-color: rgb(17, 14, 43);
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex: 1;
+  /*  border: 2px solid teal; */
+    gap: 10px;
+}
+
+.header {
+    flex: 0 1 1915px;
+   /* border: 2px solid rgb(241, 1, 1); */
+    border-radius: 15px;
+    background-color: rgb(75, 87, 121); 
+    color: rgb(250, 235, 215);
+    text-align: center;
+   /* padding: 0;
+    margin: 0; */
+}
+
+/*.ffoods {
+    flex:auto;
+    border: 2px solid rgba(45, 190, 235, 0.719);
+    border-radius: 15px;
+    padding: 2px 10px 2px 10px;
+}
+
+.to-do {
+    flex: auto;
+    border: 2px solid rgba(45, 190, 235, 0.719);
+    border-radius: 15px;
+    padding: 2px 10px 2px 10px;
+}
+
+.places {
+    flex: auto;
+    border: 2px solid rgba(45, 190, 235, 0.719);
+    border-radius: 15px;
+    padding: 2px 10px 2px 10px;
+}
+
+.videogames {
+    flex: auto;
+    border: 2px solid rgba(45, 190, 235, 0.719);
+    border-radius: 15px;
+    padding: 2px 10px 2px 10px;
+}
+ */
+
+ .lists {
+    display: flex;
+    flex: 1;
+    gap: 5px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+   /* border: 2px solid rgba(235, 45, 45, 0.719); */
+    
+
+ }
+
+ .ffoods, .to-do, .places, .videogames {
+    flex: 1; 
+    border: 2px solid rgba(45, 190, 235, 0.719);
+    border-radius: 15px;
+    padding: 2px 10px 2px 10px;
+ }
+
